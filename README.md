@@ -67,6 +67,11 @@ You can comment out `Unknown` or rename it to `UNKNOWN` (or whatever you want) o
 
 ## Build the library
 
+
+> **⚠️ Note: This build requires Python 3.12 or earlier.** 
+> 
+> Build will fail under Python 3.13 and above because those versions removed the `PyEval_ThreadsInitialized()` function (deprecated since Python 3.9)
+
 Run:
 
 ```bash
